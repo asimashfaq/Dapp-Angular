@@ -1,0 +1,9 @@
+<h3>Your current balance {{balance}}</h3>
+<div>
+   Deposit Funds <br/>
+
+    Amount <input [(ngModel)]="amount" type="text" name="deposit"/>
+    <input (click)="addBalance()" type="button" name="deposit" value="Deposit"/>
+    <br/>
+    <div>Your transaction Id is {{tx}}</div>
+</div>
